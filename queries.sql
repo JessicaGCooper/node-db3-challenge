@@ -23,7 +23,6 @@ where OrderDetail.OrderId = 10251
 order by Product.ProductName;
 
 -- Display the OrderID, Customer's Company Name and the employee's LastName for every order. All columns should be labeled clearly. Displays 16,789 records.
-
 select o.Id as OrderID
     , c.CompanyName as Customer_CompanyName
     , e.LastName as Employee_LastName
